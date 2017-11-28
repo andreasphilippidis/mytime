@@ -1,17 +1,46 @@
-.container{
+body{
+  background-color: grey;
+}
+
+header{
   display: flex;
-}
+  justify-content: space-around;
+  align-items: center;
 
-.inline-block{
-  display: inline-block;
-}
+  z-index: 5;
+  width: 100%;
+  position: relative;
 
-#header{
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: solid 1px black;
 }
 
 .logo{
-  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img{
+  display: inline-block;
+}
+
+.logo p{
+  display: inline-block;
+  color: MediumAquamarine;
+  padding-left: 10px;
+  background-color: pink;
+}
+
+nav{
+  display: flex;
+  background-color: pink;
+}
+
+nav li{
+  display: inline-block;
+  margin: 5px;
 }
